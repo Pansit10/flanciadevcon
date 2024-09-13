@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f9fa;
+}
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+header h1 {
+    margin: 0;
+    color: #007bff;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+header p {
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #555;
+}
+.section {
+    margin-bottom: 30px;
+}
+.section h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #007bff;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.list-item {
+    margin-bottom: 20px;
+}
+.list-item h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+    font-weight: bold;
+}
+.list-item p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 1em;
+}
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+ul li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+.skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills ul li {
+    background-color: #e9ecef;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 0.9em;
+    color: #333;
+    font-weight: 500;
+}
+.contact-info p, .education p, .skills p {
+    margin: 5px 0;
+}
